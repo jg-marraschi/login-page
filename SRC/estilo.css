@@ -106,7 +106,7 @@ body * {
 .textfield-pass{
     color: #37649E;
     margin-left: 250px;
-    font-size: 15px;
+    font-size: 14px;
     cursor: pointer;
 }
 
@@ -141,6 +141,10 @@ body * {
     .card-login{
         width: 85%;
     }
+    
+    .textfield-pass{
+        margin-left: 250px;
+    }
 
 }
 
@@ -162,10 +166,11 @@ body * {
         height: auto;
     }
 
+   
     .textfield-pass{
-        width: 100%;
-        height: auto;
+        margin-left: 150px;
     }
+   
 
 
     .left-img{
