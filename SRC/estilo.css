@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main-login{
+    width: 100vw;
+    height:100vh;
+    background: #a2c0d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-side > h1{
+    font-size: 2.5vw;
+    color: white;
+    
+}
+
+.left-img{
+    width: 35vw;
+}
+
+.right-side{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 50px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 10px 40px gray;
+}
+
+.card-login > h1{
+    color: #37649E;
+    font-weight: 800;
+    margin: 0;
+    
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.icone{
+    width: 100px; 
+    margin-bottom: -107px;
+    margin-left: -70px;
+
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: #c5c5c5;
+    color: #37649E;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px rgb(216, 214, 214);
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 35px;
+}
+
+.textfield input:focus{
+    background: #a2c0d1;
+}
+
+.textfield > label{
+    color: #37649E;
+    margin-bottom: 10px;
+    margin: 5px 0px;
+}
+
+.textfield-pass{
+    color: #37649E;
+    margin-left: 250px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.textfield > input::placeholder{
+    color: #37649E;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-signup{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 50px;
+    margin-bottom: 0 ;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+    color: white;
+    background: #37649E;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px 12px rgb(216, 214, 214);
+    transition: 0.5s;
+}
+
+.button-signup:hover{
+    letter-spacing: 0.50em;
+}
+
+@media(max-width:950px){
+    .card-login{
+        width: 85%;
+    }
+
+}
+
+@media(max-width:600px){
+    .main-login{
+       flex-direction: column;
+    }
+    .left-side >h1{
+        display: none;
+    }
+
+    .left-side{
+        width: 100%;
+        height: auto;
+    }
+
+    .right-side{
+        width: 100%;
+        height: auto;
+    }
+
+    .textfield-pass{
+        width: 100%;
+        height: auto;
+    }
+
+
+    .left-img{
+        width: 70vw;
+    }
+
+    .card-login{
+        width:90% ;
+    }
+}
+
+
